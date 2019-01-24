@@ -14,8 +14,16 @@ public class HitungLuas {
     /**
      * @param args the command line arguments
      */
+
+    private int cariLuasPersegiPanjang;
+
+    public HitungLuas(int panjang, int lebar) {
+        this.cariLuasPersegiPanjang = panjang * lebar;
+    }
+
     public static void main(String[] args) {
         // TODO code application logic here
+
     }
     
 }
