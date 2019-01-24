@@ -21,6 +21,10 @@ public class HitungLuas {
         this.cariLuasPersegiPanjang = panjang * lebar;
     }
 
+    public HitungLuas(int jari2) {
+        this.cariLuasLingkaran = jari2;
+    }
+
     public static void main(String[] args) {
         // TODO code application logic here
 
